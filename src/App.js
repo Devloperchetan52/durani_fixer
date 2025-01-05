@@ -6,7 +6,7 @@ function App() {
   };
 
   const openTelegram = () => {
-    window.open("https://telegram.me/+NCfkWVDjSCA1NWY1", "_blank");
+    window.open("https://telegram.me/+Q5v8wClHXfg0MDk1", "_blank");
   };
 
   return (
@@ -19,7 +19,7 @@ function App() {
         </div>
         <button class="custom-btn btn-11">JOIN TELEGRAM</button>
         <figure id="person">
-          <img src="/vickyrathor.jpg" alt="Vicky" />
+          <img src="/thakur_sahab.jpg" alt="Thakur" />
         </figure>
         <h1
           className="text"
@@ -30,7 +30,7 @@ function App() {
             fontSize: "1.5rem",
           }}
         >
-          VICKY RATHOD™
+          THAKUR SAHAB™
         </h1>
         <div className="paradiv">
           <p id="text" style={{ margin: 0, padding: 0 }}>
