@@ -30,7 +30,7 @@ function App() {
             fontSize: "1.5rem",
           }}
         >
-          THAKUR SAHAB™
+          RATHOD SIR™
         </h1>
         <div className="paradiv">
           <p id="text" style={{ margin: 0, padding: 0 }}>
