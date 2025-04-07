@@ -6,7 +6,7 @@ function App() {
   };
 
   const openTelegram = () => {
-    window.open("https://telegram.me/+qfF3nMRqEtNhZTg1", "_blank");
+    window.open("https://t.me/+DVdfJMv_JRk4NjNl", "_blank");
   };
 
   return (
@@ -30,7 +30,7 @@ function App() {
             fontSize: "1.5rem",
           }}
         >
-          RATHOD SIR™
+          RAJAT MALIK™
         </h1>
         <div className="paradiv">
           <p id="text" style={{ margin: 0, padding: 0 }}>
