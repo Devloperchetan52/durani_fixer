@@ -19,7 +19,7 @@ function App() {
         </div>
         <button class="custom-btn btn-11">JOIN TELEGRAM</button>
         <figure id="person">
-          <img src="/RathodSir.jpg" alt="RATHOD" />
+          <img src="/Rajat_Malik.jpg" alt="RATHOD" />
         </figure>
         <h1
           className="text"
