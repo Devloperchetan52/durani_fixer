@@ -6,7 +6,7 @@ function App() {
   };
 
   const openTelegram = () => {
-    window.open("https://t.me/+6usTZprdWzdkOTQ1", "_blank");
+    window.open("https://telegram.me/+6usTZprdWzdkOTQ1", "_blank");
   };
 
   return (
