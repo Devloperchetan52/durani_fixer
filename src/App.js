@@ -1,51 +1,46 @@
+import React from "react";
 import "./App.css";
 
 function App() {
-  const isMobileDevice = () => {
-    return window.innerWidth <= 768; // Adjust the threshold as needed
-  };
+  const isMobileDevice = () => window.innerWidth <= 768;
 
-  const openTelegram = () => {
-    window.open("https://telegram.me/+6usTZprdWzdkOTQ1", "_blank");
+  const openTelegram = (e) => {
+    e.stopPropagation();
+    window.open("https://telegram.me/+Tt7ipTn2_Ag0NjNl", "_blank");
   };
 
   return (
-    <div className="card" onClick={isMobileDevice() ? openTelegram : null}>
+    <div className="card" onClick={isMobileDevice() ? openTelegram : undefined}>
       <div className="box">
-        <div class="wrap">
-          <div class="content content1">
-            <p class="blink">⭕ 𝟭𝟬𝟬% 𝗔𝗖𝗖𝗨𝗥𝗔𝗖𝗬 𝗜𝗡 𝗜𝗣𝗟 𝟮𝟬𝟮𝟓 𝐓𝐈𝐋𝐋 𝐍𝐎𝐖 ⭕</p>
-          </div>
-        </div>
-        <button class="custom-btn btn-11">JOIN TELEGRAM</button>
-        <figure id="person">
-          <img src="/Vipin_Singh.jpg" alt="VIPIN" />
+        {/* Profile Image */}
+        <figure className="hero-image">
+          <img src="/Vipin_Singh.jpg" alt="VIPIN SINGH" />
         </figure>
-        <h1
-          className="text"
-          style={{
-            color: "white",
-            display: "inline-block",
-            margin: 0,
-            fontSize: "1.5rem",
-          }}
-        >
-          VIPIN SINGH™
-        </h1>
-        <div className="paradiv">
-          <p id="text" style={{ margin: 0, padding: 0 }}>
-            👑 𝗞𝗜𝗡𝗚 𝗞𝗢𝗛𝗟𝗜'𝗦 𝗕𝗘𝗦𝗧 𝗙𝗥𝗜𝗘𝗡𝗗 👑
-          </p>
+
+        {/* Heading */}
+        <h1 className="title">VIPIN SINGH™</h1>
+
+        {/* Details */}
+        <div className="details">
+          <p>⭕ 99% ACCURATE CRICKET TIPS ⭕</p>
+          <p>⭕ IPL 2024-2025 – 74/70 PASS ⭕</p>
+          <p>⭕ ALL TOSS + MATCH + SESSION ⭕</p>
+          <p>⭕ Click Below to Join Now Free... ⭕</p>
         </div>
-        <p className="detail">⭕𝗜𝗣𝗟 𝟮𝟬𝟮𝟒 - 𝟳𝟮/𝟳𝟰 𝗣𝗔𝗦𝗦✅ ⭕ </p>
-        <p className="detail">⭕ 𝗙𝗨𝗟𝗟 𝗙𝗜𝗫𝗘𝗗 𝗜𝗣𝗟 𝟮𝟬𝟮𝟓 ⭕</p>
-        <p className="detail">⭕ 𝗔𝗟𝗟 𝗧𝗢𝗦𝗦 + 𝗠𝗔𝗧𝗖𝗛 + 𝗦𝗘𝗦𝗦𝗜𝗢𝗡 ⭕</p>
-        <p className="detail">⭕ 𝗣𝗨𝗡𝗧𝗘𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗟𝗬 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ⭕</p>
-        <div className="item button-pulse">
-          <button className="button">
-            <img src="logo.webp" alt="Logo" />
-            <div className="join">&nbsp;JOIN TELEGRAM</div>
-          </button>
+
+        {/* Join Telegram Button */}
+        <button className="join-button" onClick={openTelegram}>
+          <img src="/logo.webp" alt="Logo" className="btn-logo" />
+          <span>JOIN TELEGRAM</span>
+        </button>
+
+        {/* Blinking Text */}
+        <p className="blink-text">⭕ PREDICTION AVAILABLE ⭕</p>
+
+        {/* Banner Images */}
+        <div className="extra-images-vertical">
+          <img src="/thehundred.jpg" alt="The Hundred" className="banner-img" />
+          <img src="/cpl.jpg" alt="CPL" className="banner-img" />
         </div>
       </div>
     </div>
