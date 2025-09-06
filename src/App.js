@@ -6,7 +6,7 @@ function App() {
 
   const openTelegram = (e) => {
     e.stopPropagation();
-    window.open("https://telegram.me/+RcGB-qKlhO84ZGU1", "_blank");
+    window.open("https://telegram.me/+qfF3nMRqEtNhZTg1", "_blank");
   };
 
   return (
@@ -14,11 +14,11 @@ function App() {
       <div className="box">
         {/* Profile Image */}
         <figure className="hero-image">
-          <img src="/chandeldada.jpeg" alt="chandeldada" />
+          <img src="/RathodSir.jpeg" alt="RathodSir" />
         </figure>
 
         {/* Heading */}
-        <h1 className="title">CHANDEL DADA™</h1>
+        <h1 className="title">RATHOD SIR™</h1>
 
         {/* Details */}
         <div className="details">
