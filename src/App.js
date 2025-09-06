@@ -39,8 +39,7 @@ function App() {
 
         {/* Banner Images */}
         <div className="extra-images-vertical">
-          <img src="/thehundred.jpg" alt="The Hundred" className="banner-img" />
-          <img src="/cpl.jpg" alt="CPL" className="banner-img" />
+          <img src="/Aisacup.jpg" alt="The Hundred" className="banner-img" />
         </div>
       </div>
     </div>
