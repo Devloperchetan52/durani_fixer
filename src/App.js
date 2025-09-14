@@ -6,7 +6,7 @@ function App() {
 
   const openTelegram = (e) => {
     e.stopPropagation();
-    window.open("https://telegram.me+1DA0C9zeFwwyMjQ1", "_blank");
+    window.open("https://telegram.me/+1DA0C9zeFwwyMjQ1", "_blank");
   };
 
   return (
